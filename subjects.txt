@@ -1,4 +1,10 @@
+
 OSIS
 OAIP
 1C
 C#
+
+Math
+English
+Home
+

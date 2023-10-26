@@ -1,0 +1,5 @@
+<<<<<<< HEAD
+JS TS c# HTML/CSS
+=======
+Math
+>>>>>>> refs/remotes/origin/academic
