@@ -1,0 +1,68 @@
+[
+{"type":"header","version":"5.2.1","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"Journal"},
+{"type":"table","name":"Lessons","database":"Journal","data":
+[
+{"id":"1","name":"История"},
+{"id":"2","name":"Психология общения"},
+{"id":"3","name":"Высшая Математика"},
+{"id":"4","name":"Дискретная Математика"},
+{"id":"5","name":"Основы программ. в 1С"},
+{"id":"6","name":"Основы проектирования БД"},
+{"id":"7","name":"Основы алгоритм. и программ."},
+{"id":"8","name":"Численные методы"},
+{"id":"9","name":"Информационные технологии"},
+{"id":"10","name":"Английский язык (1-ая группа)"},
+{"id":"11","name":"Английский язык (2-ая группа)"},
+{"id":"12","name":"Физическая культура"}
+]
+}
+,{"type":"table","name":"Skips","database":"Journal","data":
+[
+{"id":"1","studentID":"18","lessonID":"11","day":"2023-10-05","reason":"Семейные Обстоятельства","valid":"1"},
+{"id":"2","studentID":"26","lessonID":"6","day":"2023-10-05","reason":"Замена учителя (Родионова)","valid":"1"},
+{"id":"3","studentID":"26","lessonID":"9","day":"2023-10-05","reason":"Замена учителя (Родионова)","valid":"1"},
+{"id":"4","studentID":"26","lessonID":"11","day":"2023-10-05","reason":"Замена учителя (Родионова)","valid":"1"},
+{"id":"5","studentID":"22","lessonID":"6","day":"2023-10-05","reason":"Замена учителя (Мирзакиров)","valid":"1"},
+{"id":"6","studentID":"22","lessonID":"9","day":"2023-10-05","reason":"Замена учителя (Мирзакиров)","valid":"1"},
+{"id":"7","studentID":"22","lessonID":"11","day":"2023-10-05","reason":"Замена учителя (Мирзакиров)","valid":"1"},
+{"id":"8","studentID":"10","lessonID":"6","day":"2023-10-05","reason":"Болезнь","valid":"1"},
+{"id":"9","studentID":"10","lessonID":"9","day":"2023-10-05","reason":"Болезнь","valid":"1"},
+{"id":"10","studentID":"14","lessonID":"5","day":"2023-10-09","reason":"Игра в квазаре","valid":"1"},
+{"id":"11","studentID":"14","lessonID":"12","day":"2023-10-09","reason":"Игра в квазаре","valid":"1"},
+{"id":"12","studentID":"18","lessonID":"5","day":"2023-10-09","reason":"Игра в квазаре","valid":"1"},
+{"id":"16","studentID":"8","lessonID":"7","day":"2023-10-10","reason":"Приём у врача","valid":"1"},
+{"id":"17","studentID":"8","lessonID":"9","day":"2023-10-10","reason":"Приём у врача","valid":"1"}
+]
+}
+,{"type":"table","name":"Students","database":"Journal","data":
+[
+{"id":"1","secondName":"Алфимов","firstName":"Дмитрий","surname":"Евгеньевич","birthday":"2005-05-06","mail":"dimaalfimoff@yandex.ru"},
+{"id":"2","secondName":"Бахарева","firstName":"Татьяна","surname":"Алексеевна","birthday":"2004-06-10","mail":"baharevatana15@gmail.com"},
+{"id":"3","secondName":"Бухольцева","firstName":"Анастасия","surname":"Павловна","birthday":"2005-07-21","mail":"Bukholtceva.n@mail.ru"},
+{"id":"4","secondName":"Гулин","firstName":"Никита","surname":"Сергеевич","birthday":"2005-07-27","mail":"yshas79@gmail.com"},
+{"id":"5","secondName":"Егорова","firstName":"Елизавета","surname":"Васильевна","birthday":"2006-01-24","mail":"lisakrg@icloud.com"},
+{"id":"6","secondName":"Ефимова","firstName":"Дарья","surname":"Александровна","birthday":"2002-02-26","mail":"darya.efimova02@mail.ru"},
+{"id":"7","secondName":"Игнатова","firstName":"Мария","surname":"Станиславовна","birthday":"1995-02-20","mail":"ms1gnatov1@yandex.ru"},
+{"id":"8","secondName":"Кахоров","firstName":"Мухриддин","surname":"Сафарбекович","birthday":"2005-09-24","mail":"mukhriddin.kakhorov2409@gmail.com"},
+{"id":"9","secondName":"Козадаев","firstName":"Илья","surname":"Дмитриевич","birthday":"2005-05-24","mail":"dmi-kozadaev@mail.ru"},
+{"id":"10","secondName":"Комлева","firstName":"Анастасия","surname":"Алексеевна","birthday":"2004-04-21","mail":"haumea21@mail.ru"},
+{"id":"11","secondName":"Котрунов","firstName":"Никита","surname":"Вячеславович","birthday":"2005-03-24","mail":"Kotrunov.nikita@gmail.com"},
+{"id":"12","secondName":"Кошелев","firstName":"Евгений","surname":"Юрьевич","birthday":"2005-12-24","mail":"evge_kosh@mail.ru"},
+{"id":"13","secondName":"Крючков","firstName":"Егор","surname":"Юрьевич","birthday":"2004-12-14","mail":"ecriuchkov@yandex.ru"},
+{"id":"14","secondName":"Кузьмин","firstName":"Дмитрий","surname":"Романович","birthday":"2005-06-06","mail":"kuz665dim@gmail.com"},
+{"id":"15","secondName":"Лескова","firstName":"Екатерина","surname":"Александровна","birthday":"2005-09-26","mail":"ea144096@gmail.com"},
+{"id":"16","secondName":"Мазенин","firstName":"Егор","surname":"Иванович","birthday":"2005-08-14","mail":"egormazenin43@gmail.com"},
+{"id":"17","secondName":"Михайлов","firstName":"Виталий","surname":"Сергеевич","birthday":"2002-06-19","mail":"jet.961@yandex.ru"},
+{"id":"18","secondName":"Муравьев","firstName":"Максим","surname":"Владимирович","birthday":"2005-12-04","mail":"minjalidze@gmail.com"},
+{"id":"19","secondName":"Орлик","firstName":"Диана","surname":"Александровна","birthday":"2005-03-02","mail":"orlik_diana05@mail.ru"},
+{"id":"20","secondName":"Полянский","firstName":"Вячеслав","surname":"Владимирович","birthday":"2003-04-08","mail":"Polsha13esma@mail.ru"},
+{"id":"21","secondName":"Приходченко","firstName":"Роман","surname":"Владимирович","birthday":"2004-12-02","mail":"Roma0666004@mail.ru"},
+{"id":"22","secondName":"Русакова","firstName":"Любовь","surname":"Николаевна","birthday":"2005-06-08","mail":"lubovzejbel0@gmail.com"},
+{"id":"23","secondName":"Сейидов","firstName":"Руслан","surname":"Рагибович","birthday":"2005-04-21","mail":"r_seyidov@internet.ru"},
+{"id":"24","secondName":"Тимченко","firstName":"Виктория","surname":"Вячеславовна","birthday":"2001-05-30","mail":"timchenko.v2001@gmail.com"},
+{"id":"25","secondName":"Шеханина","firstName":"Кристина","surname":"Руслановна","birthday":"2005-12-04","mail":"Kitielmore05@gmail.com"},
+{"id":"26","secondName":"Якимов","firstName":"Денис","surname":"Дмитриевич","birthday":"2003-09-15","mail":"denis.yakimoff@mail.ru"}
+]
+}
+]
